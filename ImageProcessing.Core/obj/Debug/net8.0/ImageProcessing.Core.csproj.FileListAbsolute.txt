@@ -1,0 +1,13 @@
+C:\ImageProcessing\ImageProcessing.Core\bin\Debug\net8.0\ImageProcessing.Core.deps.json
+C:\ImageProcessing\ImageProcessing.Core\bin\Debug\net8.0\ImageProcessing.Core.dll
+C:\ImageProcessing\ImageProcessing.Core\bin\Debug\net8.0\ImageProcessing.Core.pdb
+C:\ImageProcessing\ImageProcessing.Core\obj\Debug\net8.0\ImageProcessing.Core.csproj.AssemblyReference.cache
+C:\ImageProcessing\ImageProcessing.Core\obj\Debug\net8.0\ImageProcessing.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\ImageProcessing\ImageProcessing.Core\obj\Debug\net8.0\ImageProcessing.Core.AssemblyInfoInputs.cache
+C:\ImageProcessing\ImageProcessing.Core\obj\Debug\net8.0\ImageProcessing.Core.AssemblyInfo.cs
+C:\ImageProcessing\ImageProcessing.Core\obj\Debug\net8.0\ImageProcessing.Core.csproj.CoreCompileInputs.cache
+C:\ImageProcessing\ImageProcessing.Core\obj\Debug\net8.0\ImageProcessing.Core.sourcelink.json
+C:\ImageProcessing\ImageProcessing.Core\obj\Debug\net8.0\ImageProcessing.Core.dll
+C:\ImageProcessing\ImageProcessing.Core\obj\Debug\net8.0\refint\ImageProcessing.Core.dll
+C:\ImageProcessing\ImageProcessing.Core\obj\Debug\net8.0\ImageProcessing.Core.pdb
+C:\ImageProcessing\ImageProcessing.Core\obj\Debug\net8.0\ref\ImageProcessing.Core.dll
