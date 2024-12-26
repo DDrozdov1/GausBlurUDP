@@ -10,7 +10,7 @@ public class Program
     {
         var services = new ServiceCollection();
 
-        // Load settings
+        // Настройки координатора
         var settings = new CoordinatorSettings
         {
             Port = 12345,
@@ -18,20 +18,25 @@ public class Program
             WorkerPort = 12346
         };
         services.AddSingleton(settings);
+
+        // Логирование
         services.AddLogging(configure => configure.AddConsole())
           .Configure<LoggerFilterOptions>(options => options.MinLevel = LogLevel.Information);
 
+        // Регистрация UdpHelper
+        services.AddSingleton<UdpHelper>(provider =>
+            new UdpHelper(provider.GetService<ILogger<UdpHelper>>(), settings.Port));
 
-        services.AddSingleton<UdpHelper>(provider => new UdpHelper(provider.GetService<ILogger<UdpHelper>>(), settings.Port));
+        // Регистрация Coordinator
         services.AddSingleton<Coordinator>();
-
-
 
         var provider = services.BuildServiceProvider();
         var coordinator = provider.GetService<Coordinator>();
+
         if (coordinator != null)
-            await coordinator.StartListening();
-
-
+        {
+            var coordinatorTask = coordinator.StartAsync(); // Запуск координатора
+            await coordinatorTask; // Ждём завершения
+        }
     }
 }

@@ -1,0 +1,434 @@
+{
+  "Version": 1,
+  "Hash": "Z/HJoUPwfVXjefjMbWWLn06t0zMFX23zBz3WVYwLqq0=",
+  "Source": "ImageProcessing.BlazorUI",
+  "BasePath": "_content/ImageProcessing.BlazorUI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ImageProcessing.BlazorUI\\wwwroot",
+      "Source": "ImageProcessing.BlazorUI",
+      "ContentRoot": "C:\\ImageProcessing\\ImageProcessing.BlazorUI\\wwwroot\\",
+      "BasePath": "_content/ImageProcessing.BlazorUI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\ImageProcessing\\ImageProcessing.BlazorUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ImageProcessing.BlazorUI.styles.css",
+      "SourceId": "ImageProcessing.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\ImageProcessing\\ImageProcessing.BlazorUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/ImageProcessing.BlazorUI",
+      "RelativePath": "ImageProcessing.BlazorUI#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "yrm8e5lyka",
+      "Integrity": "sgjxP1Yp1Sf6EBi/6Py/qO+7RJxEW3yJCrsFaR5B2dY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\ImageProcessing\\ImageProcessing.BlazorUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ImageProcessing.BlazorUI.styles.css"
+    },
+    {
+      "Identity": "C:\\ImageProcessing\\ImageProcessing.BlazorUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ImageProcessing.BlazorUI.bundle.scp.css",
+      "SourceId": "ImageProcessing.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\ImageProcessing\\ImageProcessing.BlazorUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/ImageProcessing.BlazorUI",
+      "RelativePath": "ImageProcessing.BlazorUI#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "yrm8e5lyka",
+      "Integrity": "sgjxP1Yp1Sf6EBi/6Py/qO+7RJxEW3yJCrsFaR5B2dY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\ImageProcessing\\ImageProcessing.BlazorUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ImageProcessing.BlazorUI.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\ImageProcessing\\ImageProcessing.BlazorUI\\wwwroot\\app.css",
+      "SourceId": "ImageProcessing.BlazorUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ImageProcessing\\ImageProcessing.BlazorUI\\wwwroot\\",
+      "BasePath": "_content/ImageProcessing.BlazorUI",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9tsjre4pz5",
+      "Integrity": "Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\ImageProcessing\\ImageProcessing.BlazorUI\\wwwroot\\index.html",
+      "SourceId": "ImageProcessing.BlazorUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ImageProcessing\\ImageProcessing.BlazorUI\\wwwroot\\",
+      "BasePath": "_content/ImageProcessing.BlazorUI",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0m238n3bxi",
+      "Integrity": "+ONWENHYWLQs99T5h8VvWodoB9agZD74o9/xjxoOVcI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.9tsjre4pz5.css",
+      "AssetFile": "C:\\ImageProcessing\\ImageProcessing.BlazorUI\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 02:17:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9tsjre4pz5"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\ImageProcessing\\ImageProcessing.BlazorUI\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 02:17:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk="
+        }
+      ]
+    },
+    {
+      "Route": "ImageProcessing.BlazorUI.bundle.scp.css",
+      "AssetFile": "C:\\ImageProcessing\\ImageProcessing.BlazorUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ImageProcessing.BlazorUI.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "515"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sgjxP1Yp1Sf6EBi/6Py/qO+7RJxEW3yJCrsFaR5B2dY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 02:24:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sgjxP1Yp1Sf6EBi/6Py/qO+7RJxEW3yJCrsFaR5B2dY="
+        }
+      ]
+    },
+    {
+      "Route": "ImageProcessing.BlazorUI.styles.css",
+      "AssetFile": "C:\\ImageProcessing\\ImageProcessing.BlazorUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ImageProcessing.BlazorUI.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "515"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sgjxP1Yp1Sf6EBi/6Py/qO+7RJxEW3yJCrsFaR5B2dY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 02:24:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sgjxP1Yp1Sf6EBi/6Py/qO+7RJxEW3yJCrsFaR5B2dY="
+        }
+      ]
+    },
+    {
+      "Route": "ImageProcessing.BlazorUI.yrm8e5lyka.bundle.scp.css",
+      "AssetFile": "C:\\ImageProcessing\\ImageProcessing.BlazorUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ImageProcessing.BlazorUI.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "515"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sgjxP1Yp1Sf6EBi/6Py/qO+7RJxEW3yJCrsFaR5B2dY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 02:24:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yrm8e5lyka"
+        },
+        {
+          "Name": "label",
+          "Value": "ImageProcessing.BlazorUI.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sgjxP1Yp1Sf6EBi/6Py/qO+7RJxEW3yJCrsFaR5B2dY="
+        }
+      ]
+    },
+    {
+      "Route": "ImageProcessing.BlazorUI.yrm8e5lyka.styles.css",
+      "AssetFile": "C:\\ImageProcessing\\ImageProcessing.BlazorUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ImageProcessing.BlazorUI.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "515"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sgjxP1Yp1Sf6EBi/6Py/qO+7RJxEW3yJCrsFaR5B2dY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 02:24:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yrm8e5lyka"
+        },
+        {
+          "Name": "label",
+          "Value": "ImageProcessing.BlazorUI.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sgjxP1Yp1Sf6EBi/6Py/qO+7RJxEW3yJCrsFaR5B2dY="
+        }
+      ]
+    },
+    {
+      "Route": "index.0m238n3bxi.html",
+      "AssetFile": "C:\\ImageProcessing\\ImageProcessing.BlazorUI\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "371"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+ONWENHYWLQs99T5h8VvWodoB9agZD74o9/xjxoOVcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 02:33:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0m238n3bxi"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+ONWENHYWLQs99T5h8VvWodoB9agZD74o9/xjxoOVcI="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\ImageProcessing\\ImageProcessing.BlazorUI\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "371"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+ONWENHYWLQs99T5h8VvWodoB9agZD74o9/xjxoOVcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 02:33:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+ONWENHYWLQs99T5h8VvWodoB9agZD74o9/xjxoOVcI="
+        }
+      ]
+    }
+  ]
+}

@@ -5,7 +5,8 @@ using ImageProcessing.Core.Interfaces;
 using ImageProcessing.Core.Utils;
 using ImageProcessing.Common;
 using System.Threading.Tasks;
-
+using System.Runtime.Intrinsics.Arm;
+using Microsoft.Extensions.Options;
 
 public class Program
 {
@@ -13,24 +14,32 @@ public class Program
     {
         var services = new ServiceCollection();
 
-        // Load settings
-        var settings = new WorkerSettings
+        // Настройки из appsettings.json
+        services.Configure<WorkerSettings>(options =>
         {
-            Port = 12346,
-            CoordinatorIp = "127.0.0.1",
-            CoordinatorPort = 12345
-        };
-        services.AddSingleton(settings);
+            options.Port = 12346;
+            options.CoordinatorIp = "127.0.0.1";
+            options.CoordinatorPort = 12345;
+        });
+
         services.AddLogging(configure => configure.AddConsole())
           .Configure<LoggerFilterOptions>(options => options.MinLevel = LogLevel.Information);
 
-        services.AddSingleton<UdpHelper>(provider => new UdpHelper(provider.GetService<ILogger<UdpHelper>>(), settings.Port));
+        services.AddSingleton<UdpHelper>(provider =>
+        {
+            var settings = provider.GetRequiredService<IOptions<WorkerSettings>>().Value;
+            return new UdpHelper(provider.GetService<ILogger<UdpHelper>>(), settings.Port);
+        });
+
         services.AddSingleton<IImageProcessor, ImageUtilities>();
         services.AddSingleton<Worker>();
 
         var provider = services.BuildServiceProvider();
         var worker = provider.GetService<Worker>();
+
         if (worker != null)
+        {
             await worker.StartListening();
+        }
     }
 }

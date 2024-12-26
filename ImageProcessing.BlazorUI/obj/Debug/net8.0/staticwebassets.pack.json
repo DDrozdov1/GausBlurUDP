@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\ImageProcessing\\ImageProcessing.BlazorUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ImageProcessing.BlazorUI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ImageProcessing.BlazorUI.yrm8e5lyka.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\ImageProcessing\\ImageProcessing.BlazorUI\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\ImageProcessing\\ImageProcessing.BlazorUI\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ImageProcessing.BlazorUI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ImageProcessing.BlazorUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ImageProcessing.BlazorUI.props",
+      "PackagePath": "build\\ImageProcessing.BlazorUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ImageProcessing.BlazorUI.props",
+      "PackagePath": "buildMultiTargeting\\ImageProcessing.BlazorUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ImageProcessing.BlazorUI.props",
+      "PackagePath": "buildTransitive\\ImageProcessing.BlazorUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

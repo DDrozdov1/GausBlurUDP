@@ -1,0 +1,29 @@
+﻿@page "/coordinator"
+@using ImageProcessing.Core.Models
+<h1>Координатор</h1>
+
+<h3>Очередь заданий:</h3>
+<ul>
+    @foreach (var job in jobQueue)
+    {
+            <li>Image ID: @job.ImageId</li>
+    }
+</ul>
+
+@code {
+    private List<ImageMessage> jobQueue = new(); // Инициализируем очередь заданий
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Здесь можно заполнить jobQueue начальными данными или подключиться к серверу
+        await LoadJobQueue();
+    }
+
+    private Task LoadJobQueue()
+    {
+        // Пример: Добавление тестовых данных в очередь
+        jobQueue.Add(new ImageMessage { ImageId = 1, MessageType = "Image" });
+        jobQueue.Add(new ImageMessage { ImageId = 2, MessageType = "Image" });
+        return Task.CompletedTask;
+    }
+}

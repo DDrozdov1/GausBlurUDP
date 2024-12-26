@@ -1,0 +1,1 @@
+C:\ImageProcessing\ImageProcessing.BlazorUI\wwwroot\index.html

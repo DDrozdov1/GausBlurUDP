@@ -44,5 +44,19 @@ namespace ImageProcessing.Common
             }
 
         }
+        public async Task<T?> ReceiveAsync<T>()
+        {
+            try
+            {
+                var result = await _udpClient.ReceiveAsync();
+                var json = Encoding.UTF8.GetString(result.Buffer);
+                return JsonConvert.DeserializeObject<T>(json);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error receiving data: {ex.Message}");
+                return default;
+            }
+        }
     }
 }
